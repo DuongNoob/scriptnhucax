@@ -7,7 +7,7 @@ if BF then
 	if getgenv().Setting then else
 		getgenv().Setting = {
 			["Join Team"] = "Pirate", -- "Pirate","Marine"
-			["Auto Farm Level"] = true,
+			["Level"] = true,
 		
 			-- Setting etc
 			["Select Weapon"] = "Combat",
@@ -4915,7 +4915,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("Ren","Blox Fruit 1.18.2.4.5WeP")
+	local Main = library:Window("DuongzHub","Phien Ban Deo Update Nua Cút")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
