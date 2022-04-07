@@ -11194,7 +11194,7 @@ if BF then
 	ShopTab:Button("Buy Random Devil Fruit",function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
 	end)
-	ShopTab:Toggle("Auto Random Devil Fruit",false,function(v)
+	ShopTab:Toggle("Auto Random Devil Fruit",true,function(v)
 		DevilAutoBuy = v
 	end)
 	spawn(function()
